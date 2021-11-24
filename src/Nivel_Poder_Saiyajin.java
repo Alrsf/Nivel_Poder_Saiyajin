@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/* Defina o poder final do Saiyajin, para saber descobir qual seu nível de transformação */
+/* Defina o poder final do Saiyajin, para descobrir qual seu nível de transformação */
 
 public class Nivel_Poder_Saiyajin {
 
@@ -17,7 +17,7 @@ public class Nivel_Poder_Saiyajin {
             System.out.println("Com o nível de poder de " + fim + ", você é um Super Saiyajin Ultra!\n");
         } else if (fim < 30000000) {
             System.out.println("Com o nível de poder de " + fim + ", você é um Super Saiyajin II!\n");
-        } else if (fim < 70000000) {
+        } else if (fim < 1600000000) {
             System.out.println("Com o nível de poder de " + fim + ", você é um Super Saiyajin III!\n");
         } else {
             System.out.println("Com o nível de poder de " + fim + ", você é um Super Saiyajin IV!\n");
